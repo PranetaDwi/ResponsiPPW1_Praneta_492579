@@ -1,0 +1,297 @@
+body{
+    background-image: url(../img/bg1.jpg);
+}
+
+.navbar{
+    width: 100%;
+    --bs-navbar-color: transparent;
+}
+#inpra{
+    font-weight: bold;
+}
+h1{
+    size: 80px;
+    font-weight: bolder;
+    
+}
+.containerheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 80px 30px 80px;
+    justify-content: space-between;
+}
+.containerheader img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.containerheader h1{
+    font-size: 50px;
+}
+header{
+    margin-top: 20px;
+}
+header img{
+    width: 100%;
+    height: 200px;
+}
+.conheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#site-content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+#site-content img{
+    height: 300px;
+}
+.p-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-primary{
+    --bs-btn-bg: #767373;
+    --bs-btn-border-color: #847e7e;
+    --bs-btn-hover-bg:var(--bs-btn-bg);
+    --bs-btn-hover-border-color:var(--bs-btn-bg);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-active-bg: #7f6f40;
+    --bs-btn-active-border-color: #7f6f40;
+}
+.subtitle{
+    background-color: #9e6956;
+    color: aliceblue;
+}
+.row .bagi2{
+    display: flex;
+    flex-direction: row;
+}
+.gatau{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.sidebagi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-body{
+    background-color: #3d280063;
+}
+element.style{
+    height: 200px;
+    background-color: #766060
+}
+.col .card{
+    width: 230px;
+    box-shadow: #767373;
+}
+.col-md-4 img{
+    height: 40px;
+    width: 200px;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: transparent;
+    background-color: transparent;
+}
+.btn-outline-success {
+    --bs-btn-color: rgb(154, 126, 126);
+    --bs-btn-border-color: rgb(42, 39, 39);
+    --bs-btn-hover-bg: #85918b;
+    --bs-btn-hover-border-color: #76807b;
+}
+#navbarSupportedContent{
+    padding-left: 42%;
+}
+
+@media screen and (max-width:1239.20px){
+    #site-content {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        width: 100%;
+    } 
+    #navbarSupportedContent{
+        padding-left: 30%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbarSupportedContent{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    } 
+    .navbar-nav{
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:769px){
+
+    .containerheader img{
+        padding-right: 70%;
+    }
+    #navbarSupportedContent{
+        padding-left: 20%;
+    }
+    .col .card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+    .card img{
+        width: 300px;
+    }
+    #site-content img{
+        height: 250px;
+    }
+    .col-md-4 img{
+        height: 40px;
+        width: 300px;
+        border-bottom-left-radius: 0;
+    }
+    #tambahan_{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+    #tambahan2_{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+    .sidebagi{
+        padding-top: 5%;
+    }
+
+    .p-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5%;
+    }
+    .sidebagi{
+        display: flex;
+        flex-direction: row;
+    }
+    .gatau{
+        flex-direction: column;
+        gap: 10px;
+    }
+    footer{
+        margin-top: 50%;
+    }
+
+}
+
+@media screen and (max-width:414px){
+    /* body{
+        background-image: url(../img/bg1_.jpg);
+    } */
+    .containerheader{
+        gap: 1px;
+    }
+    .containerheader img{
+        width: 100px;
+    }
+    #site-content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    .sidebagi{
+        gap: 30px;
+    }
+    .col-md-4 img{
+        height: 200px;
+        width: 300px;
+
+    }
+    #tambahan{
+        width: 300px;
+        height: 600px;
+    }
+    #tambahan2{
+        margin-top: 170px;
+        width: 300px;
+        height: 600px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+   
+    .card-body{
+        background-color: #3d280063;
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbarSupportedContent{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    } 
+    .navbar-nav{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .col{
+        padding-inline-start: 50px;
+    }
+    .col .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .col .card{
+        width: 300px;
+    }
+    .col-md-4 img{
+        height: 40px;
+        width: 300px;
+        border-bottom-left-radius: 0;
+    }
+    .sidebagi{
+        display: flex;
+        flex-direction: column;
+        padding-inline-start: 40px;
+    }
+    .gatau{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .containerheader{
+        padding-inline-start: 10px
+    }
+}
+
+
+
+
+
+
+

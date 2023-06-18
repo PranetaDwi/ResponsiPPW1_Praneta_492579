@@ -1,0 +1,81 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+hr{
+    height: 10px;
+    background-color: aliceblue;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.buyer{
+    align-content: center;
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: rgba(183, 172, 172, 0.563);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+.filled{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.filled, .Massage{
+    width: 48%;
+}
+
+.filled .input, .Massage {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.Massage textarea{
+    background: transparent;
+    border: 0;
+}
+::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    text-align: center;
+    margin-top: 450px;
+}
+.button{
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: grey;
+    text-decoration: none;
+    color: azure;
+}
+.logonama{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgba(179, 179, 179, 0.524);
+    text-align: center;
+}
+#inpra{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
